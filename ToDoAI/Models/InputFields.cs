@@ -1,4 +1,5 @@
-﻿namespace ToDoAI.Models
+﻿using System.ComponentModel.DataAnnotations;
+namespace ToDoAI.Models
 {
     public class InputFields
     {
