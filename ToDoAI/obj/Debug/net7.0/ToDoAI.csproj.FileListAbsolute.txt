@@ -29,3 +29,9 @@ D:\C# Projects\ToDoAI\ToDoAI\obj\Debug\net7.0\refint\ToDoAI.dll
 D:\C# Projects\ToDoAI\ToDoAI\obj\Debug\net7.0\ToDoAI.pdb
 D:\C# Projects\ToDoAI\ToDoAI\obj\Debug\net7.0\ToDoAI.genruntimeconfig.cache
 D:\C# Projects\ToDoAI\ToDoAI\obj\Debug\net7.0\ref\ToDoAI.dll
+D:\C# Projects\ToDoAI\ToDoAI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\C# Projects\ToDoAI\ToDoAI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\C# Projects\ToDoAI\ToDoAI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\C# Projects\ToDoAI\ToDoAI\bin\Debug\net7.0\MySqlConnector.dll
+D:\C# Projects\ToDoAI\ToDoAI\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\C# Projects\ToDoAI\ToDoAI\obj\Debug\net7.0\ToDoAI.csproj.CopyComplete

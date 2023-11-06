@@ -1,3 +1,9 @@
+using System;
+using ToDoAI.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+
+
 namespace ToDoAI
 {
     public class Program
@@ -10,6 +16,13 @@ namespace ToDoAI
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
+
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+            builder.Services.AddDbContext<ToDoAiAppDbContext>(options =>
+            {
+                options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+            });
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
