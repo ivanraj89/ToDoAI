@@ -1,7 +1,6 @@
 using System;
 using ToDoAI.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 
 namespace ToDoAI
