@@ -14,14 +14,14 @@ namespace ToDoAI
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            var app = builder.Build();
-
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
             builder.Services.AddDbContext<ToDoAiAppDbContext>(options =>
             {
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
             });
+
+            var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
