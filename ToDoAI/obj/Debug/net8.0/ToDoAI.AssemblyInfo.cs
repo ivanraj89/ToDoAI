@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45fdedfcd304855fd4f530928e320a478f64329e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
